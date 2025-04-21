@@ -1,12 +1,98 @@
-# React + Vite
+# Cultural Festival Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern web application built with React and Vite for managing and showcasing cultural festival events.
 
-Currently, two official plugins are available:
+## Project Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is a Cultural Festival Website that provides a platform for:
+- Viewing and managing cultural festival events
+- Interactive user interface for festival information
+- Modern and responsive design
+- Real-time updates and dynamic content
 
-## Expanding the ESLint configuration
+## File Structure
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+CulturalFestivalwebsite/
+├── public/              # Static assets
+├── src/                 # Source code
+│   ├── assets/         # Images, fonts, and other static files
+│   ├── components/     # React components
+│   ├── App.jsx         # Main application component
+│   ├── main.jsx        # Application entry point
+│   └── format.js       # Utility functions
+├── index.html          # HTML entry point
+├── vite.config.js      # Vite configuration
+├── package.json        # Project dependencies and scripts
+└── README.md           # Project documentation
+```
+
+
+## Prerequisites
+
+- Node.js (v16 or higher)
+- npm (v7 or higher)
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone [repository-url]
+cd CulturalFestivalwebsite
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+## Running the Project
+
+### Development Mode
+
+To start the development server:
+```bash
+npm run dev
+```
+This will start the development server at `http://localhost:5173`
+
+### Building for Production
+
+To create a production build:
+```bash
+npm run build
+```
+
+### Preview Production Build
+
+To preview the production build:
+```bash
+npm run preview
+```
+
+## Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint for code quality check
+
+## Technologies Used
+
+- React 19
+- Vite 6
+- React DOM
+- React Spinners
+- ESLint
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
