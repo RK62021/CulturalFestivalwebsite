@@ -94,7 +94,7 @@ npm run preview
 5. Open a Pull Request
 
 ## Deployment
-[link]{https://cultural-festivalwebsite.vercel.app/}
+[link][https://cultural-festivalwebsite.vercel.app/]
 
 ## License
 
