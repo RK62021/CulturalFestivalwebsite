@@ -87,6 +87,7 @@ function App() {
             }
           );
           const data = await response.json();
+          console.log(data);
           const responseText = data.candidates[0].content.parts[0].text;
           // Parse the response to get the events
           let cleanerResponse = responseText.replace(/```json/g, "").trim();

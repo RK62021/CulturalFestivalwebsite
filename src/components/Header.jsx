@@ -3,9 +3,9 @@ import React from "react";
 function Header() {
   return (
     <>
-      <header className="bg-gray-800 text-white p-5 shadow-lg font-Inter ">
+      <header className="bg-gradient-to-r from-blue-500 to-purple-600 text-white p-6 font-Inter">
         <h1 className="text-center text-4xl font-medium ">
-          Cultural event tracker
+          Cultural Event Tracker
         </h1>
       </header>
     </>
