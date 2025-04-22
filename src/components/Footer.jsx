@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer className="bg-gray-800 text-white py-4 fixed bottom-0 w-full">
       <p className="text-center text-gray-500 text-sm">
-        &copy; {new Date().getFullYear()} By Raunak and Suraj. All rights
+        &copy; {new Date().getFullYear()} By Raunak, Suraj and T.Rama Harish. All rights
         reserved.
       </p>
     </footer>
