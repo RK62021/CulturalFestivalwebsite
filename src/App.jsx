@@ -30,7 +30,7 @@ function App() {
                 {
                   parts: [
                     {
-                      text: "List all 28 states of India separated by commas.",
+                      text: "List all 29 states and union teritories of India separated by commas.",
                     },
                   ],
                 },
